@@ -1,0 +1,68 @@
+﻿/*===============================================
+●smart.css  画面の横幅が640pxまで YM170302
+===============================================*/
+@media screen and (max-width:640px){
+
+.pd01, .pd02, .pd03, .pd04, .pd05{
+	padding:30px;
+}
+.inputText01{
+	width:97%;
+	margin:0px auto!important;
+	color:#000000;
+	font-weight:normal;
+	font-size:14px;
+}
+.InputSubmit{
+	margin:10px 0 0;
+}
+.simg_s{
+	width:50%;
+}
+
+.imgR, .imgL{
+	float:none!important;
+	clear:both!important;
+	text-align:center!important;
+	display:block!important;
+	margin:0px auto 15px;
+}
+
+.tokutei_tb{
+	width:96%!important;
+}
+.form_tb {
+	width:100%!important;
+}
+
+.tokutei_tb tr, .tokutei_tb th, .tokutei_tb td,
+.form_tb tr, .form_tb th, .form_tb td {
+	width: 100%!important;
+	display: block!important;
+	box-sizing:border-box;
+	
+}
+.tokutei_tb th,
+.form_tb th{
+	width: auto;
+}
+.tokutei_tb th, .tokutei_tb td,
+.form_tb th, .form_tb td {
+	text-align:left;
+	white-space: normal;
+}
+
+.form_tb td {
+	margin-bottom:15px;
+	text-align:center;
+}
+ul.checkbox{
+	padding:20px;
+}
+
+ul.checkbox li{
+	font-size:inherit;
+}
+
+
+}

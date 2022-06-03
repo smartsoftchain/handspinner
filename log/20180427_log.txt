@@ -1,0 +1,8 @@
+/usr/local/bin/composite -gravity center -compose dst-in ./case/bg.png ./convert/20180427194939.png -matte ./convert/20180427194939_result.png
+/usr/local/bin/convert ./convert/20180427194939.png -trim ./convert/20180427194939.png
+/usr/local/bin/convert ./convert/20180427194939_result.png -trim ./convert/20180427194939_result.png
+オリジナルハンドスピナー_20180427194939■20180427194939■2480■1■3■http://myhandspinner.net/convert/20180427194939.png■http://myhandspinner.net/convert/20180427194939_result.png■■■
+/usr/local/bin/composite -gravity center -compose dst-in ./case/bg.png ./convert/20180427195838.png -matte ./convert/20180427195838_result.png
+/usr/local/bin/convert ./convert/20180427195838.png -trim ./convert/20180427195838.png
+/usr/local/bin/convert ./convert/20180427195838_result.png -trim ./convert/20180427195838_result.png
+オリジナルハンドスピナー_20180427195838■20180427195838■2480■1■3■http://myhandspinner.net/convert/20180427195838.png■http://myhandspinner.net/convert/20180427195838_result.png■■■

@@ -1,0 +1,260 @@
+/*===============================================
+●tablet.css 画面の横幅が768pxまで YM170302
+===============================================*/
+@media screen and (max-width: 767px){
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, input, button, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+div{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
+	  vertical-align: top;　
+}
+.simg{
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
+	vertical-align: top;　
+}
+.sp_img{
+}
+
+.sbtn{
+	width:98%;
+	margin:0px auto;
+}
+.container{
+	width:100%;
+}
+.inbox01{
+	width:100%!important;
+	padding:10px!important;
+}
+
+
+.bd01{background-image:none; border:7px solid #0E3882; border-top:none; box-sizing:border-box;}
+.part{
+	width:100%;
+}
+.part01, .part02, .part04{
+	width:100%;
+	padding:20px 2%  40px;
+	line-height:1.5;
+}
+.part03,
+.part06{
+	width:100%;
+	padding:0px 2%;
+	line-height:1.5;
+}
+
+.part04{
+	text-align:center;
+}
+.part05{
+	width:100%;
+	height:auto;
+	display:table;
+}
+.top01, .top02{
+	display:block;
+	text-align:center;
+	width:45%;
+}
+
+.free_dial{
+	width:100%;
+	display:table;
+}
+.conL{
+	display:table-cell;
+}
+.conR{
+	display:table-cell;
+}
+.conL01{
+	display:table-cell;
+}
+.conR01{
+	display:table-cell;
+}
+
+
+
+.pd01, .pd02, .pd03, .pd04, .pd05{
+	padding:30px;
+}
+
+.pd05{
+	border:7px solid #17497C;
+}
+
+
+.imgR, .imgL{
+	float:none!important;
+	clear:both!important;
+	text-align:center!important;
+	display:block!important;
+	margin:0px auto 15px;
+}
+.img_dis img{
+	display:none;
+}
+
+.question_image img{
+	width:60%!important;
+	margin-right:0px;
+}
+
+.arrow_question {
+    position: relative;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 0px;
+    width: 68%;
+    font-size: 16px;
+	font-weight:bold;
+}
+.f_link + * {
+	border-left:none;
+}
+.f_box{
+	width:100%;
+}
+
+.f_link li{
+	float:none;
+	clear:left;
+	text-align: center!important;
+	display: block!important;
+}
+.f_copy {
+	float:none;
+	clear:left;
+	margin-top:10px;
+	text-align:center!important;
+	display: block!important;
+}
+
+
+.tb_contbox {
+	padding: 10px 5px;
+	border-radius: 0px;
+	border: 0px solid #ddd;
+	background: #f8f8f8;
+}
+
+.tb02 {
+	overflow: hidden;
+}
+.tb02 tbody, .tb02 tr, .tb02 th, .tb02 td {
+	width: 100%;
+	float: left;
+	display: block;
+}
+.tb02 th {
+	width: auto;
+    font-size: 1.6rem;
+}
+.tb02 th span {
+	position: relative;
+	top: -4px;
+	right: -10px;
+    font-size: 1.3rem;
+    top: -2px;
+}
+.tb02 th, .tb02 td {
+	padding-left: 0;
+	padding-right: 0;
+}
+.tb02 td {
+	padding-top: 0;
+}
+  .radio {
+    font-size: 1.5rem;
+  }
+
+
+
+.map {
+	border:none;
+	width:100%;
+	}
+
+
+.form_txtbox {
+	width: 100%;
+	height: 50px;
+}
+.form_txtbox input {
+	height: 50px;
+	font-size: 1.5rem;
+}
+
+#faq dt{
+	background-position: 12px 6px;
+}
+#faq dd{
+	background-position: 12px 10px;
+}
+
+.inputText01{
+	width:97%;
+	margin:0px auto!important;
+	color:#ccc;
+	font-weight:normal;
+}
+.InputSubmit{
+	margin:10px 0 0;
+}
+
+.imgR, .imgL{
+	float:none!important;
+	clear:both!important;
+	text-align:center!important;
+	display:block!important;
+	margin:0px auto 15px;
+}
+
+.tokutei_tb{
+	width:96%!important;
+}
+.form_tb {
+	width:100%!important;
+}
+
+.form_tb tr, .form_tb th, .form_tb td {
+	width: 100%!important;
+	display: block!important;
+	box-sizing:border-box;
+	
+}
+.form_tb th{
+	width: auto;
+}
+.form_tb th, .form_tb td {
+	text-align:left;
+	white-space: normal;
+}
+
+.form_tb td {
+	margin-bottom:15px;
+	text-align:center;
+}
+
+
+
+
+}

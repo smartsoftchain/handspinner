@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>オリジナルハンドスピナー作成サイト「マイスピナーつくーる」</title>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!-- ※（basic_case.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="css/basic_case.css">
+
+<!-- ※デフォルトのスタイル（basic.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="css/basic.css">
+<!-- ※タブレット用のスタイル（tablet.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="css/tablet.css">
+<!-- ※スマートフォン用のスタイル（smart.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="css/smart.css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/dropzone.css">
+
+<script data-turbolinks-track="true" src="js/tn-menu.js"></script>
+
+<style>
+.dz-details img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+</style>
+
+</head>
+
+
+<body>
+<header class="contents" id="header">
+<div class="navbar navbar-fixed-top" role="navigation">
+	<div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sp">Toggle navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="about" href="#seisaku"><i class="fa fa-file-text-o"></i> マイスピナーを作成する</a></li>
+        </ul>
+ 	  </div>
+               
+    </div>
+</div>
+</header>
+<!--
+  <div id="main_slider">
+    <div id="slider">
+        <!--スライドショー 1枚目-->
+<!--
+        <div><img src="common/image/0001.jpg" title=""></div>
+-->
+        <!--スライドショー 2枚目-->
+<!--
+        <div><img src="common/image/0002.jpg" title=""></div>
+    </div>
+</div>
+-->
+<!--
+<nav id="navigation">
+<div class="container">
+<ul>
+    <li><a href="#nav01">特徴</a></li>
+    <li><a href="#nav02">ハード</a></li>
+    <li><a href="#">ソフト</a></li>
+    <li><a href="#">手帳型</a></li>
+    <li><a href="#">店舗トップ</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="contentBox01">
+<a name="nav01" id="nav01"></a>
+-->
+<!--
+<div class="container">
+    <h2>特徴</h2>
+    <h3>Detail</h3>
+    <ul>
+        <li class="contenL01"><img src="common/image/sidec_det01.png" width="500" alt=""></li>
+        <li class="contenR01"><strong>iPhone本来の美しさをありのままに</strong><br>
+        iPhoneそのものの美しさを引き立たせる、背面のクリア素材</li>
+        
+        <li class="contenL02"><strong>サイドがアクセント まるでバンパー</strong><br>
+        高級感のあるサイドのメタルカラーは、<br>
+        背面のクリアカラーと合わせてまるでバンパーのよう。</li>
+        <li class="contenR02"><img src="common/image/sidec_det02.png" width="500" alt=""></li>
+        
+        <li class="contenL01"><img src="common/image/sidec_det03.png" width="500" alt=""></li>
+        <li class="contenR01"><strong>薄さもiPhoneそのまま</strong><br>
+        シンプルなデザインだから、持つ時に違和感のない薄さ。</li>
+    </ul>
+</div>
+</div>
+<div class="contentBox02 clearfix">
+<a name="nav02" id="nav02"></a>
+<div class="container">
+    <h2>ハードケース</h2>
+    <h3>Pc type</h3>
+
+    <ul>
+        <li class="contenL01"><img src="common/image/sidec_item01.png" alt=""></li>
+        <li class="contenR01">
+            硬いポリカーボネート素材を使用したハードタイプ。<br>
+            クリア部分の透明度はシリーズのなかでも一番高く、iPhoneの美しさを際立たせます。<br>
+            また厚みが最も薄いのもこちらのタイプの特徴です。
+        </li>
+    </ul>
+</div>    
+</div>
+-->
+<!-- /contentBox02-->
+
+<a name="seisaku"></a>
+<section id="upload_contents">
+提供：日本ハンドスピナークラブ<br>
+<br>
+<br>
+<font size="5">
+あなただけのオリジナルハンドスピナーを作ろう！<br>
+好きな写真を選択してマイハンドスピナーを簡単ゲット！<br>
+<br>
+</font>
+  <div class="container">
+<img src="images/logologo.png" width="300px"><br>
+      <span class="cle"><i class="fa fa-spinner"></i></span>
+
+    <h1>マイスピナーつくーるスタート！</h1>
+	
+    <p class="notice_box">
+画像ファイルは7.0MBまで、形式はjpgとpngに対応しています。<br>
+※画像は出来る限り画質が高いものをご用意ください。<br>
+    </p>
+
+
+    <form accept-charset="UTF-8" action="simulate.php" class="new_contents" id="form1" enctype="multipart/form-data" method="post">
+        <div style="margin:0;padding:0;display:inline">
+        	<input name="img" id="img" type="hidden" value="">
+        </div>
+        <div id="new_contents">
+	        <div class="ca-clickable">
+	            <p class="icon"><i class="fa fa-upload"></i> </p>
+	            <h2>マイスピナー用画像ファイルをドラッグアンドドロップ</h2>
+	            <p class="if">もしくは</p>
+	            <!--input id="contents_image" name="file" type="file"-->
+         		<button id="upload_button" class="btn btn-info btn-lg imgInput">画像をアップロード</button>
+	        </div>
+        </div>
+        
+        <div class="fallback">
+            <!--input data-disable-with="Please wait..." name="commit" type="submit" value="Submit"-->
+        </div>
+    </form>
+    </div>
+    
+</section>
+
+<footer id="footer">
+<div class="container">
+<!-- logo
+        <img src="images/img001_flogo.png" />
+-->
+    <nav>
+        <ul class="row">
+            <li><a href="#seisaku">マイスピナーを作成する</a></li>
+            <li><a href="http://smartphonecase.shop/order/" target="_blank">特定商取引法に基づく表示</a></li>
+            <li><a href="http://smartphonecase.shop/guide/privacy.php" target="_blank">プライバシーポリシー</a></li>
+        </ul>
+    </nav>
+    <div id="copyright">&#169;
+        <span itemprop="name">日本ハンドスピナークラブ</span>
+        <span itemprop="copyrightYear">
+
+</span>
+    </div>
+    
+  </div>
+</footer>
+
+
+<div class="item" style="display:none;">
+    <div class="item_loading"></div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/dropzone.js"></script>
+<script>
+
+$(function(){
+    var hogeParam = "hoge";
+	
+	var myDropzone = new Dropzone("#new_contents",{
+		url:"result.php",
+        paramName : "file",         // input fileの名前
+        parallelUploads:1,            // 1度に何ファイルずつアップロードするか
+        acceptedFiles:'image/*',   // 画像だけアップロードしたい場合
+        maxFiles:1,                      // 1度にアップロード出来るファイルの数
+        maxFilesize:7.5,                // 1つのファイルの最大サイズ(1=1M)
+        dictFileTooBig: "ファイルが大きすぎます。 ({{filesize}}MiB). 最大サイズ: {{maxFilesize}}MiB.",
+        dictInvalidFileType: "画像ファイル以外です。",
+        dictMaxFilesExceeded: "一度にアップロード出来るのは1ファイルまでです。",
+        clickable:true,
+		   uploadprogress:function(_file, _progress, _size){
+			  // _file.previewElement.querySelector("[data-drop-uploadprogress]").style.width = "" + _progress + "%";
+			  if(!$(".dz-progress").hasClass("progress")){
+				$(".dz-progress").addClass("progress");
+				$(".dz-progress").html('<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"><span class="sp">60%</span></div>');
+			  }
+
+			  $(".dz-progress .sp").html(_progress + "%");
+			  $(".dz-progress .progress-bar").css('width' , _progress + "%");
+
+			  if(_progress == 100){
+				$('<div class="loading"></div>').prependTo(".drop-progress");
+			  }
+			  	//console.log(_file);
+				$("#img").val($("#imgdata").attr("src"));
+			},
+			success:function(_file, _return, _xml){
+				_file.previewElement.classList.add("drop-success");
+				//console.log(_return);
+				$("#img").val(_return);
+				$("#form1").submit();
+			},
+			error:function(_file, _error_msg){
+			  if(_error_msg.image){
+				_error_msg = _error_msg.image[0] + _error_msg.image[1];
+			  }
+			  $.growl({message: _error_msg} , {
+											type: "danger" ,
+											delay: 5000,
+											position: {
+											  from: "bottom" ,
+											  align: "right"
+											}});
+
+
+			  var ref;
+			  (ref = _file.previewElement) != null ? ref.parentNode.removeChild(_file.previewElement) : void 0;
+			  this.removeAllFiles();
+			},
+			dictRemoveFile:'削除',
+			dictCancelUpload:'キャンセル',
+			init:function(e){
+			}
+	});
+	$("#contents_image").change(function(){
+		//$('#sample').trigger("click");
+		//$("#form1").submit();
+	});
+    //console.log(myDropzone);
+    // 何か値をpostしたい場合
+    /*
+    myDropzone.on("sending", function(file,xhr,formData) {
+        formData.append("hoge", hogeParam);
+    });*/
+	$("#upload_button").click(function(){
+		$("#new_contents").click();
+		return false;
+	});
+});
+
+</script>
+
+
+
+<!--スライドショースクリプト部分-->
+<link rel="stylesheet" type="text/css" href="common/css/jquery.bxslider.css">
+
+<script src="common/js/jquery.bxslider.js"></script>
+
+<script>
+$(function(){
+	$('#slider').bxSlider({
+		auto:true,
+		speed:1000,
+		mode: 'fade',
+		captions: true
+	});
+});
+</script>
+
+<!--スムース移動スクリプト部分-->
+<script type="text/javascript">
+$(function(){
+
+    $('a[href^=#]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
+
+</script>
+
+
+</body>
+</html>
